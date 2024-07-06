@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.text-contain{
+    height: 4rem;
+    background-color: #C80036;
+    color: #FFF5E1;
+    border: 4px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+}
+body{
+background-color: #0C1844;
+}
+.game{
+    height: 35rem;
+    width: 70rem;
+    border:4px solid #FF6969;
+    margin-left: 200px;
+    margin-top: 60px;
+    border-radius: 1rem;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice:hover{
+    background-color: black;
+}
+.choices{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    gap: 3rem;
+}
+
+.score-board{
+    height: 8rem;
+    width: 25rem;
+    border: 5px solid #C80036;
+    margin-left: 23rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+}
+.score-board{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 4rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #FFF5E1;
+}
+#user-score,
+ #comp-score{
+    font-size: 4rem;
+}
+
+.msg{
+    height: 5rem;
+    width: 25rem;
+    background-color: #FFF078;
+    margin-left: 23rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: 5px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    background-color: inherit;
+    transition: 0.5s;
+}
+.reset{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: -60rem;
+    margin-top: -3rem;
+}
+button{
+    height: 2.5rem;
+    width: 7rem;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #3ABEF9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 1rem;
+    border: 2px solid #A7E6FF;
+}
+button:hover{
+    opacity: 0.9;
+    border: 4px solid black;
+}
+hr{
+    border: 1rem solid black;
+}
+footer{
+    background-color: #B6FFFA;
+    height: 18rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+footer p{
+    margin-left: 6rem;
+    margin-top: -1.3rem;
+}
+footer i{
+margin-left: 4rem;
+margin-top: 1rem;    
+}
+.profile{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: blue;
+}
+.profile:hover{
+    text-decoration: underline;
+}
+.email{
+    cursor: pointer;
+}
