@@ -3,26 +3,27 @@
     margin: 0;
 }
 .text-contain{
-    height: 4rem;
+    height: 10vmin;
     background-color: #C80036;
     color: #FFF5E1;
-    border: 4px solid black;
+    border: 1vmin solid black;
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 1.4rem;
-    border-radius: 1rem;
+    font-size: 3.5vmin;
+    border-radius: 2vmin;
+    width: 210vmin;
 }
 body{
 background-color: #0C1844;
 }
 .game{
-    height: 35rem;
-    width: 70rem;
+    height: 82vmin;
+    width: 160vmin;
     border:4px solid #FF6969;
-    margin-left: 200px;
-    margin-top: 60px;
-    border-radius: 1rem;
+    margin-left: 30vmin;
+    margin-top: 8vmin;
+    border-radius: 4vmin;
 }
 .choice{
     height: 200px;
@@ -51,85 +52,86 @@ img{
 }
 
 .score-board{
-    height: 8rem;
-    width: 25rem;
-    border: 5px solid #C80036;
-    margin-left: 23rem;
-    margin-top: 2rem;
-    border-radius: 3rem;
+    height: 20vmin;
+    width: 55vmin;
+    border: 1.1vmin solid #C80036;
+    margin-left: 50vmin;
+    margin-top: 5vmin;
+    border-radius: 7vmin;
 }
 .score-board{
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 4rem;
+    gap: 10vmin;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 5vmin;
     color: #FFF5E1;
 }
 #user-score,
  #comp-score{
-    font-size: 4rem;
+    font-size: 9vmin;
 }
 
 .msg{
-    height: 5rem;
-    width: 25rem;
+    height: 12vmin;
+    width: 55vmin;
     background-color: #FFF078;
-    margin-left: 23rem;
-    margin-top: 2rem;
-    border-radius: 1rem;
-    border: 5px solid black;
+    margin-left: 50vmin;
+    margin-top: 4vmin;
+    border-radius: 4.5vmin;
+    border: 1.1vmin solid black;
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 1.8rem;
+    font-size: 4.1vmin;
     font-weight: bolder;
     background-color: inherit;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 .reset{
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-left: -60rem;
-    margin-top: -3rem;
+    margin-left: -133vmin;
+    margin-top: -9vmin;
 }
 button{
-    height: 2.5rem;
-    width: 7rem;
+    height: 5.8vmin;
+    width: 15vmin;
     font-size: larger;
     font-weight: bolder;
     background-color: #3ABEF9;
     align-items: center;
     justify-content: center;
     display: flex;
-    border-radius: 1rem;
-    border: 2px solid #A7E6FF;
+    border-radius: 3vmin;
+    border: 0.6vmin solid #A7E6FF;
 }
 button:hover{
     opacity: 0.9;
-    border: 4px solid black;
+    border: 1vmin solid black;
 }
 hr{
-    border: 1rem solid black;
+    border: 2vmin solid black;
 }
 footer{
     background-color: #B6FFFA;
-    height: 18rem;
+    height: 40vmin;
     font-size: larger;
     font-weight: bolder;
+    width: 210vmin;
 }
 footer p{
-    margin-left: 6rem;
-    margin-top: -1.3rem;
+    margin-left: 16vmin;
+    margin-top: -4vmin;
 }
 footer i{
-margin-left: 4rem;
-margin-top: 1rem;    
+margin-left: 10vmin;
+margin-top: 3vmin;    
 }
 .profile{
-    margin-left: 1rem;
+    margin-left: 3vmin;
     text-decoration: none;
     color: blue;
 }
